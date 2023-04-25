@@ -17,8 +17,8 @@ SET SQL_SAFE_UPDATES = 0;
 create table login(formNo varchar(10), cardNo1 varchar(15), pinNo1 varchar(5));
 create table atm(pin varchar(10), date varchar(50), type varchar(20), amount varchar(20));
 
-select * from login; 
-select * from signup;
-select * from signup2;
-select * from signup3;
-select * from atm;
+select * from login; // for seeing the total user login details
+select * from signup; // for seeing the details of the first login page
+select * from signup2; // for seeing the login details of the second login page
+select * from signup3; // for seeing the login details of the third login page
+select * from atm; // for seeing the total transaction made using the login details (pin code of the card)
